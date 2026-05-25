@@ -324,9 +324,29 @@ India
             </div>
           </div>
 
-          <div className="mt-16 pt-8 border-t border-white/10 text-white/60 text-sm">
-            © 2026 GC Consulting. All rights reserved.
-          </div>
+          <div className="mt-16 pt-8 border-t border-white/10 text-white/60 text-sm text-center">
+  
+  <div className="flex justify-center gap-6 mb-4">
+    <a
+      href="/privacy-policy"
+      className="hover:text-white transition"
+    >
+      Privacy Policy
+    </a>
+
+    <a
+      href="/terms"
+      className="hover:text-white transition"
+    >
+      Terms & Conditions
+    </a>
+  </div>
+
+  <div>
+    © 2026 GC Consulting. All rights reserved.
+  </div>
+
+</div>
         </div>
       </section>
     </main>
