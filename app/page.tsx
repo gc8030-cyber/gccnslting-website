@@ -46,14 +46,12 @@ export default function Home() {
             </a>
           </nav>
 
-          <button className="bg-[#008b84] hover:bg-[#00736d] text-white px-6 py-3 rounded-full text-sm font-medium shadow-lg transition">
-            <a
-  href="mailto:gc@gccnslting.com"
-  className="bg-[#008b84] hover:bg-[#00736d] text-white px-6 py-3 rounded-full text-sm font-medium shadow-lg transition inline-block"
->
-  Get In Touch
-</a>
-          </button>
+          <a
+            href="mailto:gc@gccnslting.com"
+            className="bg-[#008b84] hover:bg-[#00736d] text-white px-6 py-3 rounded-full text-sm font-medium shadow-lg transition inline-block"
+          >
+            Get In Touch
+          </a>
         </div>
       </header>
 
@@ -82,13 +80,19 @@ export default function Home() {
             </p>
 
             <div className="mt-10 flex flex-wrap gap-5">
-              <button className="bg-[#008b84] hover:bg-[#00736d] text-white px-8 py-4 rounded-full font-medium shadow-lg transition">
+              <a
+                href="#services"
+                className="bg-[#008b84] hover:bg-[#00736d] text-white px-8 py-4 rounded-full font-medium shadow-lg transition"
+              >
                 Explore Our Services
-              </button>
+              </a>
 
-              <button className="border border-[#008b84] text-[#008b84] hover:bg-[#008b84] hover:text-white px-8 py-4 rounded-full font-medium transition">
+              <a
+                href="#contact"
+                className="border border-[#008b84] text-[#008b84] hover:bg-[#008b84] hover:text-white px-8 py-4 rounded-full font-medium transition"
+              >
                 Contact Us
-              </button>
+              </a>
             </div>
           </div>
 
@@ -220,7 +224,7 @@ export default function Home() {
       <section className="bg-gradient-to-r from-[#007f79] to-[#005e5a] py-14 text-white">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10 text-center">
           {[
-            ["20", "Years of Experience"],
+            ["20+", "Years of Experience"],
             ["100+", "Projects Delivered"],
             ["40+", "Countries Supported"],
             ["100%", "Client Commitment"],
@@ -302,10 +306,10 @@ export default function Home() {
 
               <p className="mt-4 text-white/70 text-sm leading-7">
                 gc@gccnslting.com
-<br />
-+91 8511048026
-<br />
-India
+                <br />
+                +91 8511048026
+                <br />
+                India
               </p>
             </div>
 
@@ -325,28 +329,26 @@ India
           </div>
 
           <div className="mt-16 pt-8 border-t border-white/10 text-white/60 text-sm text-center">
-  
-  <div className="flex justify-center gap-6 mb-4">
-    <a
-      href="/privacy-policy"
-      className="hover:text-white transition"
-    >
-      Privacy Policy
-    </a>
+            <div className="flex justify-center gap-6 mb-4">
+              <a
+                href="/privacy-policy"
+                className="hover:text-white transition"
+              >
+                Privacy Policy
+              </a>
 
-    <a
-      href="/terms"
-      className="hover:text-white transition"
-    >
-      Terms & Conditions
-    </a>
-  </div>
+              <a
+                href="/terms"
+                className="hover:text-white transition"
+              >
+                Terms & Conditions
+              </a>
+            </div>
 
-  <div>
-    © 2026 GC Consulting. All rights reserved.
-  </div>
-
-</div>
+            <div>
+              © 2026 GC Consulting. All rights reserved.
+            </div>
+          </div>
         </div>
       </section>
     </main>
