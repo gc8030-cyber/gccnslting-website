@@ -47,7 +47,12 @@ export default function Home() {
           </nav>
 
           <button className="bg-[#008b84] hover:bg-[#00736d] text-white px-6 py-3 rounded-full text-sm font-medium shadow-lg transition">
-            Get In Touch
+            <a
+  href="mailto:gc@gccnslting.com"
+  className="bg-[#008b84] hover:bg-[#00736d] text-white px-6 py-3 rounded-full text-sm font-medium shadow-lg transition inline-block"
+>
+  Get In Touch
+</a>
           </button>
         </div>
       </header>
@@ -297,8 +302,10 @@ export default function Home() {
 
               <p className="mt-4 text-white/70 text-sm leading-7">
                 gc@gccnslting.com
-                <br />
-                India
+<br />
++91 8511048026
+<br />
+India
               </p>
             </div>
 
